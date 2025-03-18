@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User guide</title>
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="./assets/js/jquery-3.6.1.min.js"></script>
+    <!-- <script src="./options.js"></script> -->
+    <style>
+        .header {
+            background-color: aquamarine;
+        }
+
+        .list-settings {
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header container-fluid mb-3">
+        <div class="row">
+            <!-- Navbar -->
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid d-flex justify-content-center">
+                        <img src="./icon/icon_manual.png" alt="" />
+                        <a class="navbar-brand ms-2" href="#">Hướng dẫn - EWOQ Support Tool</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div class="main container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="ms-2">
+                    <strong class="text-warning fs-4">Chú ý: </strong>
+                    Bạn nên đóng trang EWOQ trước khi cài đặt hoặc cập nhật extension này.
+                </p>
+            </div>
+            <div class="col-md-12">
+                <h5>>> Hướng dẫn cập nhật</h5>
+                <ul>
+                    <li>
+                        <p class="text-info">Bước 1: Tải file bản cập nhật và giải nén</p>
+                        <p class="ms-2">Tải file .zip của bản cập và giải nén được thư mục có các file như
+                            hình:</p>
+                        <img src="./images/guidline/update_1.png" alt="" class="ms-4" style="width: 700px;">
+                    </li>
+                    <li>
+                        <p class="text-info">Bước 2: Cập nhật</p>
+                        <p class="ms-2">
+                            Copy tất cả các file và thư mục trong thư mục <strong>sources</strong> của phiên bản mới vừa
+                            giải nén rồi dán vào thư mục <strong>sources</strong> của phiên bản cũ đang sử dụng
+                            <br>
+                            <strong>>> Khi hệ thống hỏi, hãy chọn ghi đè/replace để sử dụng các file mới.</strong>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="text-info">Bước 3: Reload extension</p>
+                        <p class="mt-2">Vào trang quản lý extensions của chrom và ấn reload lại. <br>
+                            <strong>More tools->Extensions</strong> hoặc <strong>Công cụ khác-> Tiện ích mở
+                                rộng</strong>
+                        </p>
+                        <img src="./images/guidline/update_3.png" alt="" class="ms-4" style="width: 700px;border: solid 1px;">
+                    </li>
+                    <li>
+                        <p class="text-info mt-3">Bước 4: Xong!!!</p>
+                        
+                    </li>
+                </ul>
+            </div>
+            <!--  -->
+            <div class="col-md-12">
+                <h5>>> Hướng dẫn cài đặt</h5>
+                <h6 class="ms-3">Cài đặt thủ công</h6>
+                <ul>
+                    <li>
+                        <p class="text-info">Bước 1: Tải file và giải nén</p>
+                        <p class="ms-2">Tải file .zip và giải nén được thư mục có các file như
+                            hình:</p>
+                        <img src="./images/guidline/setup_1.png" alt="" class="ms-4" style="width: 700px;">
+                    </li>
+                    <li>
+                        <p class="text-info">Bước 2: Mở trang quản lý extensions</p>
+                        <p class="ms-2">- Mở menu của chrome</p>
+                        <p class="ms-2">- Mở trang quản lý extensions </p>
+                        <p class="ms-4">+ (Tiếng anh): More tools -> Extensions</p>
+                        <p class="ms-4">+ (Tiếng việt): Công cụ khác -> Tiện ích mở rộng</p>
+                        <img src="./images/guidline/setup_2.png" alt="">
+                        <p class="ms-2">- Trang quản lý extensions:</p>
+                        <img src="./images/guidline/setup_3.png" alt="" style="width: 700px;">
+                    </li>
+                    <li>
+                        <p class="text-info">Bước 3: Bật chế độ Developer mode (Chế độ dành cho nhà phát triển)</p>
+                        <img src="./images/guidline/setup_4.png" alt="" style="width: 700px;">
+                    </li>
+                    <li>
+                        <p class="text-info">Bước 4: Cài đặt extension</p>
+                        <div class="ms-4 mb-5">
+                            <p class="ms-2">- Chọn tải tiện ích đã giải nén (Load unpacked)</p>
+                            <img src="./images/guidline/setup_41.png" alt="" style="width: 700px;">
+                            <p class="ms-2 mt-5">- Chọn thư mục "sources" và cài đặt </p>
+                            <img src="./images/guidline/setup_42.png" alt="" style="width: 700px;">
+                            <p class="ms-2">- Cài extension thành công </p>
+                            <img src="./images/guidline/setup_43.png" alt="" style="width: 700px;">
+                        </div>
+                        <h6 class="ms-3 mt-5 d-none">2. Cài trên Mac, Linux,...</h6>
+                        <div class="ms-4 d-none">
+                            <p class="ms-2">- Kéo thả file "auto-count-extension.crx" vào cửa sổ trang quan Quản lý
+                                extensions vừa mở</p>
+                            <img src="./images/guidline/setup_5.png" alt="" style="width: 700px;">
+                            <p class="ms-2">- Nhấn đồng ý cài đặt etension </p>
+                            <img src="./images/guidline/setup_6.png" alt="" style="width: 700px;">
+                            <p class="ms-2">- Cài extension thành công </p>
+                            <img src="./images/guidline/setup_7.png" alt="" style="width: 700px;">
+                        </div>
+                    </li>
+                    <li>
+                        <p class="text-info">Bước 4: Xong, sử dụng thôi:))</p>
+                        <p class="ms-2">1. C thể nhấp chuột phải vào icon của extension rồi chọn User guide từ menu
+                            để mở trang hướng dẫn sử dụng. </p>
+                        <p class="ms-2">2. Có thể nhấp chuột phải vào icon của extension để mở menu bật/tắt nhanh</p>
+                        <p class="ms-2">3. Hoặc có thể nhấp chuột phải vào icon của extension rồi chọn Options từ menu
+                            để mở trang cài đặt các chức năng khác. </p>
+                    </li>
+                </ul>
+            </div>
+            <!--  -->
+            <!--  -->
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer container"></div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
